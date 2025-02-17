@@ -1,0 +1,28 @@
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+.its1{
+    height: 500px;
+    background-color: aqua;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color:black;
+    color: white;
+    font-size: 100px;
+}
+.dd{
+    text-decoration: none;
+    color: white;
+    font-size: 100px;
+
+}
+.pp{
+    font-size: 50px;
+}
+.pp1{
+     font-size: 50px;
+}

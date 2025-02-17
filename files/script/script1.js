@@ -50,5 +50,28 @@ mmm2.addEventListener("mouseout",function(){
     audio2.pause();
 });
 
+let switch1 = document.querySelector(".switch1");
+let switch2 = document.querySelector(".switch2");
+let test1 = document.querySelector(".test1");
+let test2 = document.querySelector(".test2");
 
-
+function uu(){
+    switch1.style.backgroundColor = "black";
+    switch1.style.color = "white";
+    switch1.style.border = "1rem solid aqua";
+    switch2.style.backgroundColor = "aqua";
+    switch2.style.color = "black";
+    switch2.style.border = "1rem solid black";
+    test1.style.zIndex = "1";
+    test2.style.zIndex = "0";
+}
+function oo(){
+    switch1.style.backgroundColor = "aqua";
+    switch1.style.color = "black";
+    switch1.style.border = "1rem solid black";
+    switch2.style.backgroundColor = "black";
+    switch2.style.color = "white";
+    switch2.style.border = "1rem solid aqua";
+    test1.style.zIndex = "0";
+    test2.style.zIndex = "1";
+}
