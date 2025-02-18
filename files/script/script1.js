@@ -58,20 +58,20 @@ let test2 = document.querySelector(".test2");
 function uu(){
     switch1.style.backgroundColor = "black";
     switch1.style.color = "white";
-    switch1.style.border = "1rem solid aqua";
-    switch2.style.backgroundColor = "aqua";
+    switch1.style.border = "1rem solid #7A9E9F";
+    switch2.style.backgroundColor = "#7A9E9F";
     switch2.style.color = "black";
     switch2.style.border = "1rem solid black";
     test1.style.zIndex = "1";
     test2.style.zIndex = "0";
 }
 function oo(){
-    switch1.style.backgroundColor = "aqua";
+    switch1.style.backgroundColor = "#7A9E9F";
     switch1.style.color = "black";
     switch1.style.border = "1rem solid black";
     switch2.style.backgroundColor = "black";
     switch2.style.color = "white";
-    switch2.style.border = "1rem solid aqua";
+    switch2.style.border = "1rem solid #7A9E9F";
     test1.style.zIndex = "0";
     test2.style.zIndex = "1";
 }
