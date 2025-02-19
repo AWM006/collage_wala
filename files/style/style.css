@@ -41,9 +41,9 @@
     font-size: 5rem; 
 }
 #heh{
-    color: red;
+    color: white;
     font-size: 100px;
-  
+    text-shadow: 5px 5px black;
 }
 .lll{
     width:100%;
@@ -104,7 +104,7 @@ footer{
 .mmm1{
     border: 2px solid black;
     width: 2000px;
-    height: 70%;
+    height: 80%;
     background-color: grey;
     position: relative;
     left: 100px; 
@@ -112,6 +112,7 @@ footer{
     transition: 1s; 
     background-image: url('../images/arc.png');
     background-size:cover ;
+    z-index: 1;
 }
 
 
@@ -119,43 +120,45 @@ footer{
 .mmm2{
     border: 2px solid black;
     width: 2000px;
-    height: 70%;
-    background-color: green;
-    position: relative;
-    left: 490px;
-    top: 15px;
-    transition: 1s;
-    background-image: url('../images/hacker.jpg');
-    background-size:cover ;
-}
-
-.mmm3{
-    border: 2px solid black;
-    width: 2000px;
-    height: 70%;
+    height: 80%;
     background-color: aqua;
     position: relative;
-    right: 150px;
-    bottom: 25px;
+    left: 35px;
+    bottom: 15px;
     transition: 1s;
    object-fit: cover;
+   z-index: 2;
 }
-.mmm3 video{
+.mmm2 video{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+.mmm3{
+    border: 2px solid black;
+    width: 2000px;
+    height: 80%;
+    background-color: green;
+    position: relative;
+    bottom: 30px;
+    transition: 1s;
+    background-image: url('../images/robin2.jpeg');
+    background-size:cover ;
+    z-index: 3;
+}
+
 
 .mmm4{
     border: 2px solid black;
     width: 2000px;
-    height: 70%;
+    height: 80%;
     background-color: hotpink;
     position: relative;
     right: 35px;
-    bottom: 25px ;
+    bottom: 15px ;
     transition: 1s;
     object-fit: cover;
+    z-index: 2;
 }
 .mmm4 video{
     width: 100%;
@@ -167,35 +170,36 @@ footer{
 .mmm5{
     border: 2px solid black;
     width: 2000px;
-    height: 70%;
+    height: 80%;
     background-color: red;
     position: relative;
-    right: 380px;
-    bottom: 50px;
+    right: 100px;
+    top: 15px;
     transition: 1s;
-    background-image: url('../images/robin2.jpeg');
-    background-size:cover ;
+    background-image: url('../images/hacker.jpg');
+    background-size:cover;
+    z-index: 1;
 }
 
 .mmm1:hover{
     transform: scale(1.5);
-    z-index: 1;
+    z-index: 4;
 }
 .mmm2:hover{
     transform: scale(1.5);
-    z-index: 1;
+    z-index: 4;
 }
 .mmm3:hover{
     transform: scale(1.5);
-    z-index: 1;
+    z-index: 4;
 }
 .mmm4:hover{
     transform: scale(1.5);
-    z-index: 1;
+    z-index: 4;
 }
 .mmm5:hover{
     transform: scale(1.5);
-    z-index: 1;
+    z-index: 4;
 }
 
 .l1{
