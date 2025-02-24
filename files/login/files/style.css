@@ -1,107 +1,68 @@
 body{
-    background-color: aqua;
-}
-.form{
-    background-color: blueviolet;
-    height: 50rem;
-    width: 90%;
-    top: 50%;
-    left: 40%;
-    text-align: center;
-    position: relative;
-    top: 10rem;
-    left: 4rem;
-    font-size: 2rem;
-    
-}
-.input{
-    width: 90%;
-    height: 5rem;
-    border: 2px solid black;
-    font-size: 1.5rem;
-}
-.header{
-    color: white;
-    background-color:cadetblue;
-    width: 100%;
-    height: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.footer{
-    background-color: black;
-    width: 100%;
-    height : 10rem;
-    position: relative;
-    top: 11.1rem;
-    
-}
-.submit{
-    color: black;
-    background-color:blueviolet;
-    width: 10rem;
-    height: 3rem;
-    border-radius: 3rem;
-    border: 3px solid black;
-}
-.submit1{
-    color: black;
-    background-color:blueviolet;
-    width: 10rem;
-    height: 3rem;
-    border-radius: 3rem;
-    border: 3px solid black;
-    transition: 1s;
-}
-.submit1:hover{
-    color: white;
-    background-color: black;
-    border: 5px solid blueviolet;
-}
-
-.yo{
     height: 100%;
     width: 100%;
-    background-color: cornflowerblue;
+    background-color: #4F6367;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.mainform{
+    height: 80rem;
+    width: 50rem;
+    background-color: black;
+    margin-top: 5rem;
+    border: 3rem solid #7A9E9F;
+}
+.avatar{
+    height: 25rem;
+    width: 25rem;
+    background-color: white;
     border-radius: 50%;
-}
-.details{
-    padding-left:3rem ;
-}
-.ok{
-    height: 10rem;
-    width: 30rem;
-    border: 5px solid black;
-    border-radius: 6px;
-    position: absolute;
-    top:20%;
-    left: 40%;
-    background-color:blanchedalmond;
-    text-align: center;
-    padding-top: 0;
-    transform: translate(-50%,-50%) ;
-    visibility:hidden;
-    z-index: 0;
-    
-}
-.ok div{
-    height: 30%;
-    text-align: center;
-    background-color: red;
-    padding-top:0;
     position: relative;
-    bottom: 1rem;
-
+    top: 5rem;
+    margin-bottom: 20%;
 }
-.ok button{
-    background-color: red;
-    border-radius: 2rem;
-    height : 1.5rem;
-    width: 95%;
+.nametext{
+    color: white;
+    font-size: 3rem;
+    position: relative;
+    left: 5%;
 }
-.teleport{
-    text-decoration: none;
-    font-size: large;
-    color: black;
+.name{
+    height: 3rem;
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+.passShow{
+    display: flex;
+    justify-content: space-between;
+}
+.passwordtext{
+    color: white;
+    font-size: 3rem;
+    padding-left: 5%;
+}
+.show{
+    font-size: 2rem;
+    color: white;
+}
+.tick{
+    height: 2rem;
+    width: 2rem;
+}
+.pass{
+    height: 3rem;
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+.submit{
+    height: 3rem;
+    width: 50%;
+    background-color: purple;
+    font-size: 2rem;
 }
