@@ -25,7 +25,7 @@ body{
     display: flex;
     top: 5rem;
     margin-bottom: 20%;
-    background-image: url("images/mario.jpeg");
+    background-image: url("images/Denji\ Clown\ Icon.jpeg");
     background-size:cover ;
 }
 .eyes {
@@ -39,7 +39,7 @@ body{
   }
   
   .eye {
-    width: 60px;
+    width: 50px;
     height: 50px;
     border-radius: 100%;
     background-color: #fff;
@@ -47,16 +47,19 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 25%;
+    top: 30%;
+    left: 2%;
   }
   
   .pupil {
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
     border-radius: 101px;
     background-color: #000;
     position: relative;
-    bottom: 5%;
+    bottom: 10%;
+    margin: 0%;
+    padding: 0%;
   }
 .nametext{
     color: white;
