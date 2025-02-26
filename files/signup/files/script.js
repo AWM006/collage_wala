@@ -1,5 +1,6 @@
 let check = document.querySelector(".tick");
 let password = document.querySelector(".pass");
+let password2 = document.querySelector(".repass");
 let form = document.querySelector(".mainform");
 const pupils = document.querySelectorAll(".eye .pupil");
 
@@ -15,6 +16,7 @@ form.addEventListener("mouseover", (e) => {
 check.addEventListener('change', (event) => {
     if (event.currentTarget.checked) {
         password.type = "text";
+        password2.type = "text";
         form.addEventListener("mouseover", (e) => {
           pupils.forEach((pupil) => {
             var rect = pupil.getBoundingClientRect();
@@ -30,6 +32,7 @@ check.addEventListener('change', (event) => {
     
     else {
       password.type = "password";
+      password2.type = "password";
       form.addEventListener("mouseover", (e) => {
         pupils.forEach((pupil) => {
           var rect = pupil.getBoundingClientRect();
