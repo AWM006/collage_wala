@@ -1,0 +1,721 @@
+body{
+    margin: 0;
+    padding: 0%;
+}
+#g {
+    height: 500px;
+    
+    background-image: url('../images/tea\ stall.png');
+    background-size: cover;
+}
+.h{
+    font-size: 50px;
+    color: rgb(160, 1, 1);
+    text-shadow: 2px 2px #060007;
+}
+.j{
+    font-size: 25px;
+    color: white;
+}
+.k{
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    margin-left: 2rem;
+    margin-right: 0%;
+}
+.k:hover{
+    background:rgba(0, 0, 0, 0.7);
+    border-radius: 25%;
+}
+.header{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+.contact{
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+#gg{
+    height: 150px;
+    padding-top: 60px;
+}
+#he{
+    text-shadow: 5px 5px #060007; 
+    color: white;
+    font-size: 5rem; 
+}
+#heh{
+    color: white;
+    font-size: 100px;
+    text-shadow: 5px 5px black;
+}
+.lll{
+    width:100%;
+    height: 27rem;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #4F6367;
+}
+.lll1{
+    width: 300px;
+    height: 100%;
+    background-color: #060007;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 1s;
+}
+.lll1:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+.lll2{
+    width: 300px;
+    height: 100%;
+    margin-right: 20px;
+    background-color:#060007;
+    transition: 1s;
+}
+.lll2:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+.lll3{
+    width: 300px;
+    height: 100%;
+    background-color: #060007;
+    transition: 1s;
+}
+.lll3:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+.footer{
+    width: 100%;
+    height: 10rem;
+    background-color: black;
+    margin: 0%;
+}
+.mmm{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-color: #93B1B5;
+    
+}
+
+.mmm1{
+    border: 2px solid black;
+    width: 2000px;
+    height: 80%;
+    background-color: grey;
+    position: relative;
+    left: 100px; 
+    top: 15px;
+    transition: 1s; 
+    background-image: url('../images/arc.png');
+    background-size:cover ;
+    z-index: 1;
+}
+
+
+
+.mmm2{
+    border: 2px solid black;
+    width: 2000px;
+    height: 80%;
+    background-color: aqua;
+    position: relative;
+    left: 35px;
+    bottom: 15px;
+    transition: 1s;
+   object-fit: cover;
+   z-index: 2;
+}
+.mmm2 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.mmm3{
+    border: 2px solid black;
+    width: 2000px;
+    height: 80%;
+    background-color: green;
+    position: relative;
+    bottom: 30px;
+    transition: 1s;
+    background-image: url('../images/robin2.jpeg');
+    background-size:cover ;
+    z-index: 3;
+}
+
+
+.mmm4{
+    border: 2px solid black;
+    width: 2000px;
+    height: 80%;
+    background-color: hotpink;
+    position: relative;
+    right: 35px;
+    bottom: 15px ;
+    transition: 1s;
+    object-fit: cover;
+    z-index: 2;
+}
+.mmm4 video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+.mmm5{
+    border: 2px solid black;
+    width: 2000px;
+    height: 80%;
+    background-color: red;
+    position: relative;
+    right: 100px;
+    top: 15px;
+    transition: 1s;
+    background-image: url('../images/hacker.jpg');
+    background-size:cover;
+    z-index: 1;
+}
+
+.mmm1:hover{
+    transform: scale(1.5);
+    z-index: 4;
+}
+.mmm2:hover{
+    transform: scale(1.5);
+    z-index: 4;
+}
+.mmm3:hover{
+    transform: scale(1.5);
+    z-index: 4;
+}
+.mmm4:hover{
+    transform: scale(1.5);
+    z-index: 4;
+}
+.mmm5:hover{
+    transform: scale(1.5);
+    z-index: 4;
+}
+
+.l1{
+    background-color: white;
+    height: 270px;
+    width: 238px;
+    margin-top: 30px;
+    margin-left: 32px;
+    background-size: cover;
+}
+.ll1{
+    background-color: red;
+    height: 60px;
+    width: 90%;
+    border-radius: 20%;
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20%;
+}
+.ll1:hover ,  .ll1:active{
+background-color: blue;
+}
+
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+.dis{
+    color: white;
+    padding: 0%;
+    margin: 0%;
+}
+.dis h3{
+    margin: 0%;
+}
+.product1{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/AMAN\ CHOWDHURY.jpg);
+    background-size: cover;
+}
+.product2{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/ANANNYA\ DHARA.png);
+    background-size: cover;
+}
+.product3{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/ANANTA\ DUTTA.png);
+    background-size: cover;
+}
+.product4{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/ANGSHUMAN\ ROY.png);
+    background-size: cover;
+}
+.product5{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/ANSWSHA\ DAS.png);
+    background-size: cover;
+}
+.product6{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/ARGHA\ LAHA.png);
+    background-size: cover;
+}
+.product7{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/ARPAN\ CHANDRA.png);
+    background-size: cover;
+}
+.product8{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/AVINANDAN\ LAHA.png);
+    background-size: cover;
+}
+.product9{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/AYAN\ MONDAL.png);
+    background-size: cover;
+}
+.product10{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/BIKRAM\ HANSDA.png);
+    background-size: cover;
+}
+.product11{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/BIMAL\ DAS.png);
+    background-size: cover;
+}
+.product12{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/CHIRANTAN\ GUIN.png);
+    background-size: cover;
+}
+.product13{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/DEBDEEP\ ADHIKARI.png);
+    background-size: cover;
+}
+.product14{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/DEEP\ SAHA.png);
+    background-size: cover;
+}
+.product15{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/DIPU\ NASKAR.png);
+    background-size: cover;
+}
+.product16{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/DIYA\ DUTTA.png);
+    background-size: cover;
+}
+.product17{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/FARHAN\ ANJUM.png);
+    background-size: cover;
+}
+.product18{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/JHUNU\ MONDAL.png);
+    background-size: cover;
+}
+.product19{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/LIPI\ SINGHA.png);
+    background-size: cover;
+}
+.product20{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/MAHADEB\ HEMBROM.png);
+    background-size: cover;
+}
+.product21{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/MANAB\ BARMAN.png);
+    background-size: cover;
+}
+.product22{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/NATESA\ NASRIN.png);
+    background-size: cover;
+}
+.product23{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/NILUFA\ KHATUN.png);
+    background-size: cover;
+}
+.product24{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/PAYEL\ KOLE.png);
+    background-size: cover;
+}
+.product25{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/PIYUSH\ BHAKAT.png);
+    background-size: cover;
+}
+.product26{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/PRATIVA\ SINGHA.png);
+    background-size: cover;
+}
+.product27{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/PRITAM\ SAREN.png);
+    background-size: cover;
+}
+.product28{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/RIMLY\ DAS.png);
+    background-size: cover;
+}
+.product29{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/RONI\ SEN.png);
+    background-size: cover;
+}
+.product30{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/RUPALI\ SOREN.png);
+    background-size: cover;
+}
+.product31{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/RUPSA\ SAMANTA.png);
+    background-size: cover;
+}
+.product32{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/SAMINA\ KHATUN.png);
+    background-size: cover;
+}
+.product33{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/SAMRIDDHA\ DAS.png);
+    background-size: cover;
+}
+.product34{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/SANDIP\ HARIJAN.png);
+    background-size: cover;
+}
+.product35{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/SANJU\ POREL.png);
+    background-size: cover;
+}
+.product36{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/SARBOJIT\ SAHA.png);
+    background-size: cover;
+}
+.product37{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/SAYANTI\ BANERJEE.png);
+    background-size: cover;
+}
+.product38{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/SHANGITA\ SINGHA.png);
+    background-size: cover;
+}
+
+.product39{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/SK\ MUSTAK.png);
+    background-size: cover;
+}
+.product40{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/SK\ SAHIDUL\ ISLAM.png);
+    background-size: cover;
+}
+.product41{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/SNEHA\ MANDAL.png);
+    background-size: cover;
+}
+.product42{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/SOURADIP\ CHATTERJEE.png);
+    background-size: cover;
+}
+.product43{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/SOURISH\ PAL.png);
+    background-size: cover;
+}
+.product44{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/SUKANYA\ MALIK.png);
+    background-size: cover;
+}
+.product45{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/SUMON\ GHOSE.png);
+    background-size: cover;
+}
+.product46{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/SUPRITI\ BALA.png);
+    background-size: cover;
+}
+.product47{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/SUROJIT\ MONDAL.png);
+    background-size: cover;
+}
+.product48{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/TRISHA\ DAWN.png);
+    background-size: cover;
+}
+.product49{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/WAHID\ ROUSHAN.png);
+    background-size: cover;
+}
+.product50{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/KALLOL.png);
+    background-size: cover;
+}
+.product51{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/RAJA.png);
+    background-size: cover;
+}
+.product52{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/kounik.jpg);
+    background-size: cover;
+}
+.product53{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/ANKUSH.png);
+    background-size: cover;
+}
+.product54{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/ARPAN.png);
+    background-size: cover;
+}
+.product55{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/DIP\ DAS.png);
+    background-size: cover;
+}
+.product56{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/GOURAB.png);
+    background-size: cover;
+}
+.product57{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/NIJAMUDDIN.png);
+    background-size: cover;
+}
+.product58{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/RAHUL.png);
+    background-size: cover;
+}
+.product59{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/SAPTAPARNA.png);
+    background-size: cover;
+}
+.product60{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/SATYAM.png);
+    background-size: cover;
+}
+.product61{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/SHRABON.png);
+    background-size: cover;
+}
+.product62{
+    height: 100%;
+    width: 100%;
+    background-image: url(../student/SUDIPTA.png);
+    background-size: cover;
+}
+
+.teacher1{
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/teacher/baishakhi.jpg);
+    background-size: cover;
+}
+.teacher2{
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/teacher/debdip.jpg);
+    background-size: cover;
+}
+.teacher3{
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/teacher/krishanu.jpg);
+    background-size: cover;
+}
+.teacher4{
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/teacher/ruru.jpg);
+    background-size: cover;
+}
+.teacher5{
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/teacher/sudatta.jpg);
+    background-size: cover;
+}
+.teacher6{
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/teacher/tonoy.jpg);
+    background-size: cover;
+}
+
+.test{
+    height: 519rem;
+    width: 100%;
+    position: relative;
+    background-color: black;
+}
+.test1{
+    height: 520.5rem;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+}
+.test2{
+    height: 520.5rem;
+    width: 100%;
+    background-color: #4F6367;
+    position: absolute;
+}
+
+.switch{
+    height: 10rem;
+    width: 100%;
+    background-color:#4F6367;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 0.5rem solid black;
+    border-bottom: 0.5rem solid black;
+}
+
+.switch1{
+    color: #7A9E9F;
+    height: 8rem;
+    width: 25rem;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border: 1rem solid  #7A9E9F;
+    transition: 1s;
+    border-radius: 25%;
+}
+.switch1:hover{
+    cursor:default;
+}
+    
+.switch2{
+    height: 8rem;
+    width: 25rem;
+    background-color: #7A9E9F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border:1rem solid black;
+    transition: 1s;
+    border-radius: 25%;
+}
+.switch2:hover{
+    cursor:default;
+}
